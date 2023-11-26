@@ -1,8 +1,16 @@
-module com.example.quizapp_javafx {
+module com.example.QuizApp_JavaFX {
     requires javafx.controls;
     requires javafx.fxml;
-            
+    requires javafx.web;
+
+    requires org.controlsfx.controls;
+    requires com.dlsc.formsfx;
+    requires net.synedra.validatorfx;
+    requires org.kordamp.ikonli.javafx;
+    requires org.kordamp.bootstrapfx.core;
+    requires eu.hansolo.tilesfx;
+    requires com.almasb.fxgl.all;
                             
-    opens com.example.quizapp_javafx to javafx.fxml;
-    exports com.example.quizapp_javafx;
+    opens com.example.QuizApp_JavaFX to javafx.fxml;
+    exports com.example.QuizApp_JavaFX;
 }
