@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.QuizApp_JavaFX.ControllerMenu2">
+   <children>
+      <VBox alignment="CENTER" layoutX="25.0" layoutY="14.0" prefHeight="373.0" prefWidth="306.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="27.0" prefWidth="305.0" text="Kategorien Auswahl" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+               <children>
+                  <Button fx:id="categoryComputer" alignment="CENTER" mnemonicParsing="false" onAction="#categoryComputerButton_clicked" prefWidth="200.0" text="Computer" />
+                  <Button fx:id="category_ProLang" alignment="CENTER" mnemonicParsing="false" onAction="#category_ProLangButton_clicked" prefWidth="200.0" text="Programmiersprachen" />
+                  <Button fx:id="categoryJava" alignment="CENTER" mnemonicParsing="false" onAction="#categoryJavaButton_clicked" prefWidth="200.0" text="Java" />
+                  <Button fx:id="categoryGermany" alignment="CENTER" mnemonicParsing="false" onAction="#categoryGermanyButton_clicked" prefWidth="200.0" text="Deutschland" />
+                  <Button fx:id="categoryAnimals" alignment="CENTER" mnemonicParsing="false" onAction="#categoryAnimalsButton_clicked" prefWidth="200.0" text="Tiere" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="54.0" prefWidth="235.0" spacing="5.0">
+               <children>
+                  <Label text="Deine Auswahl" />
+                  <Label fx:id="categoryLabel" prefHeight="17.0" prefWidth="301.0">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <HBox fx:id="statusHBox" alignment="CENTER" prefHeight="50.0" prefWidth="306.0" spacing="20.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#OKButton_clicked" prefWidth="80.0" text="OK" />
+                  <Button mnemonicParsing="false" onAction="#ChancelButton_clicked" prefWidth="80.0" text="Abbrechen" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

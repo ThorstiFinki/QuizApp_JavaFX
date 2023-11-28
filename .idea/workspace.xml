@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55affde0-c3c2-4575-853a-bad620fd3c42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/QuizApp_JavaFX/ControllerMenu2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/PopUpWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/QuizApp_JavaFX/menu2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application/ControllerQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dbUtil/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/QuestionBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/QuizApp_JavaFX/quiz.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/QuizApp_JavaFX/ControllerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/QuizApp_JavaFX/ControllerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/QuizApp_JavaFX/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/QuizApp_JavaFX/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/QuizApp_JavaFX/ControllerMenu2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/QuizApp_JavaFX/ControllerMenu2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/QuizApp_JavaFX/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/QuizApp_JavaFX/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\thors\IdeaProjects\QuizApp_JavaFX\src\main\resources\com\example\QuizApp_JavaFX" />
@@ -89,10 +90,11 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/QuizApp_JavaFX/ControllerMenu2.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

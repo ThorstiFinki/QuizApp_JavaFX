@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import model.PopUpWindow;
 
@@ -45,13 +46,12 @@ public class ControllerMenu {
     }
 
     private void goToCategoryOverview() throws IOException {
-        Stage stage2 = new Stage();
-
-        FXMLLoader fxmlLoader = new FXMLLoader(Objects.requireNonNull(Main.class.getResource("menu2.fxml")));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("menu2.fxml"));
         Scene scene2 = new Scene(fxmlLoader.load());
 
+        Stage stage2 = new Stage();
         stage2.setScene(scene2);
-        stage2.setTitle("Kategorien Auswahl");
+        stage2.setTitle("Kategorie Auswahl");
         stage2.setResizable(false);
         stage2.show();
 

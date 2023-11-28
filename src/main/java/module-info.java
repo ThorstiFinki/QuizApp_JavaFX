@@ -10,7 +10,10 @@ module com.example.QuizApp_JavaFX {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
-                            
+    requires java.sql;
+
     opens com.example.QuizApp_JavaFX to javafx.fxml;
+    opens Application to javafx.fxml;
     exports com.example.QuizApp_JavaFX;
+    exports Application;
 }
